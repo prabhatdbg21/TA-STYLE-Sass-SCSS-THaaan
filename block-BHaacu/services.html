@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sass/SCSS</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/795fa69886.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="infobar ">
+            <div class="container  flex">
+                <div class="info flex flex-media-100 flex-center">
+                    <address>
+                        <i class="fa fa-phone"></i>
+                        +91 8892853351
+                    </address> 
+                    <address>
+                        <i class="fa fa-envelope"></i>  
+                         <a href="mailto:prabhatdbg21@gmail.com">
+                            prabhatdbg21@gmail.com
+                         </a>
+                    </address>
+                </div>
+                <div class="icon flex-media-100 ">
+                    <ul class="flex flex-center">
+                        <li> <i class="fa fa-facebook-square"></i> </li>
+                        <li> <i class="fa fa-instagram"></i> </li>
+                        <li> <i class="fa fa-twitter"></i> </li>
+                        <li> <i class="fa fa-globe"></i> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navbar flex">
+            <div class="container flex">
+                <a href="index.html" class="brand"> <span>Uni</span> TECH </a> 
+
+                <label for="toggle" class="bars">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <input type="checkbox" id="toggle">
+    
+                <nav class="nav">
+                    <ul class="flex">
+                        <li>
+                            <a href=""> Home </a>
+                        </li>
+                        <li>
+                            <a href="about.html"> About Us </a>
+                        </li>
+                        <li>
+                            <a href="services.html"> Services</a>
+                        </li>
+                        <li class="drop-down">
+                            <a href=""> 
+                                Pages  <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="drop-down-list">
+                                <li> 
+                                    <a href="pricing.html">Pricing</a>
+                                </li>
+                                <li> 
+                                    <a href="">Portfolio</a>
+                                </li>
+                                <li> 
+                                    <a href="error.html">404 Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="drop-down">
+                            <a href="">
+                                Blog  <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="drop-down-list">
+                                <li> 
+                                    <a href="">Blog</a>
+                                </li>
+                                <li> 
+                                    <a href="">Blog Single</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html"> Contact Us </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Services-Hero -->
+        <div class="about-hero">
+            <div class="container">
+                <h2> Services </h2>
+                <p>Aspernatur at enim excepturi facere in reiciendis</p>
+            </div>
+        </div>
+        <!-- Services-Leader -->
+        <article class="leader  about-leader services-leader">
+             <div class="container flex">
+                <div class="flex-40 flex-media-100 small-screen-margin-bottom">
+                    <span> Our Services</span>
+                    <h2> Find the best services <br> and consulting for <br> affordable </h2>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
+                        by injected humour, or randomised words. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eligendi fugiat
+                         labore libero molestias provident quae quaerat quis!
+                    </p>
+                </div>
+                <figure class="flex-49">
+                    <img src="./assets/media/business-1.jpg" alt="woman">
+                </figure>
+             </div>
+        </article>
+        <!-- Services-Products -->
+        <section class="services services-products">
+             <div class="container">
+                <h2> Our Products</h2>
+                <P>  Eius eligendi fugiat labore libero molestias provident quae quaerat quis! </P>
+                <div class="flex flex-wrap service-artical">
+                    <article class="flex-31 flex-media-100">
+                        <figure >
+                            <img src="./assets/media/consulting.svg" alt="consulting">
+                        </figure>
+                        <h3> Excellent Features </h3>
+                        <p> Achieve virtually any look and layout design within one UI Kit solution. </p>
+                    </article>
+                    <article class="flex-31 flex-media-100">
+                        <figure>
+                            <img  src="./assets/media/api.svg" alt="api">
+                        </figure>
+                        <h3> Powerful API </h3>
+                        <p> We strive to figure out ways to help your audience grow through all platforms. </p>
+                    </article>
+                    <article class="flex-31 flex-media-100">
+                        <figure>
+                            <img src="./assets/media/blockchain.svg" alt="blockchain">
+                        </figure>
+                        <h3> Blockchain Based </h3>
+                        <p> Find what you need in one template and combine features at will. </p>
+                    </article>
+                    <hr class="flex-100 display-none"> 
+                    <article class="flex-31 flex-media-100">
+                        <figure>
+                            <img src="./assets/media/vuejs.svg" alt="vuejs">
+                        </figure>
+                        <h3> VuejS Included </h3>
+                        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form </p>
+                    </article>
+                    <article class="flex-31 flex-media-100">
+                        <figure>
+                            <img  src="./assets/media/react.svg" alt="react">
+                        </figure>
+                        <h3> React Powered </h3>
+                        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form </p>
+                    </article>
+                    <article class="flex-31 flex-media-100">
+                        <figure>
+                            <img src="./assets/media/angular.svg" alt="angular">
+                        </figure>
+                        <h3> Angular Compatible </h3>
+                        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form </p>
+                    </article>
+                </div>
+             </div>
+        </section>
+        <!-- Service-Firm -->
+         <article class="firm service-firm">
+            <div class="quote">
+                <div class="container flex">
+                    <div class="flex service-firm-deals">
+                        <h4 > Best Deals </h4>
+                        <div class="vr"></div>
+                        <p class="flex-media-100"> Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod </p>
+                    </div>
+                    <button class="btn">
+                      <a href="">Grab the Deal</a>
+                    </button>
+                </div>
+            </div>
+            <div class="firm-awarded">
+                <h2> Best Awarded </h2>
+                <p> There are many variations of passages of Lorem Ipsum available, but the <br>
+                     majority have suffered alteration in some form </p>
+            </div>
+            <div class="container flex">
+                <div class="flex-48">
+                    <figure>
+                        <img src="./assets/media/vision.svg" alt="vision">
+                    </figure>
+                    <h2>There are many variation <br> of passages of Lorem <br> Ipsum available</h2>
+                    <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form  </p>
+                </div>
+                <figure class="flex-48 team">
+                    <img src="./assets/media/business-4.jpg" alt="business">
+                </figure>
+            </div>
+         </article>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="flex footer-big-box">
+                <div class="flex-25 flex-media-100 small-screen-padding-bottom">
+                    <h4>Reach us</h4>
+                    <address> 
+                        <i class="fa fa-paper-plane"></i>
+                        #123, Manhatt 7 Avenu, NYC
+                    </address>
+                    <address>
+                        <i class="fa fa-phone"></i>
+                        +91 8892853351
+                    </address> 
+                    <address>
+                        <i class="fa fa-envelope"></i>  
+                         <a href="mailto:prabhatdbg21@gmail.com">
+                            prabhatdbg21@gmail.com
+                         </a>
+                    </address>
+                </div>
+                <div class="flex-20 flex-small-screen-45 small-screen-padding-bottom">
+                    <h4>Site links</h4>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-20 flex-small-screen-45 small-screen-padding-bottom">
+                    <h4>Quick links</h4>
+                    <ul>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-12 flex-small-screen-45">
+                    <h4> Follow us </h4>
+                    <div class="footer-icon">
+                        <ul class="flex">
+                            <li> <i class="fa fa-facebook-square"></i> </li>
+                            <li> <i class="fa fa-twitter"></i> </li>
+                            <li> <i class="fa fa-linkedin"></i> </li>
+                            <li> <i class="fa fa-instagram"></i> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-small-box">
+                <p><strong>Bootstrap Theme</strong> by WebThemez</p>
+                <p> &copy; All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

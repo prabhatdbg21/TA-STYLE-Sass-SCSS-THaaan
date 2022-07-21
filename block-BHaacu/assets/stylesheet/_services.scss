@@ -1,0 +1,54 @@
+/* Services-leader */
+.services-leader{
+    figure{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+/* Services-Products */
+.services-products{
+    background-color: $bg;
+    article{
+        border: 0;
+        text-align: start;
+        margin: 2rem 0 3.5rem 0;
+        figure{
+            width: 25%;
+        }
+        h3{
+            padding: 1.5rem 0;
+        }
+    }
+}
+hr{
+    border: 1px solid #dfe1e5;
+}
+
+/* Service-Firm */
+.service-firm{
+    padding: 0;
+    background-color: white;
+    padding-bottom: 7rem;
+    .quote{
+        margin: 0;
+    }
+    .service-firm-deals{
+        p{
+            padding: 0;
+        }
+    }
+}
+.vr{
+    height: 2rem;
+    width: 1px;
+    background-color: white;
+    margin: 0 1.5rem;
+}
+.firm-awarded{
+    padding: 4rem 0;
+    h2{
+        padding-bottom: 0.8rem;
+    }
+}
