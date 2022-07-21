@@ -1,0 +1,25 @@
+.error-page{
+    padding: 5.5rem 0;
+    text-align: center;
+    p{
+        padding: 1rem 0 2.5rem 0;
+    }
+    i{
+        color: $primary;
+        font-size: 2rem;
+    }
+    h3{
+        padding-bottom: 1rem;
+    }
+    a{
+        color: $text-light;
+    }
+}
+.error-icon{
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    background-color: $bg;
+    justify-content: center;
+    margin: 1.5rem auto;
+}

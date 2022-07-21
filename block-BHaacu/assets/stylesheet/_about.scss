@@ -1,0 +1,75 @@
+/* About-Hero */
+.about-hero{
+    padding: 4rem 0;
+    background-color: $primary;
+    color: white;
+    text-align: center;
+    h2{
+        color: white;
+        padding-bottom: 1.1rem;
+    }
+}
+
+/*  About-Leader */
+.about-leader{
+    padding: 4.5rem 0;
+    span{
+        display: inline-block;
+        color: $primary ;
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding-bottom: 0.9rem;
+    }
+    p{
+        line-height: 1.8;
+    }
+    figure{
+        text-align: end;
+        img{
+            width: 76%;
+        }
+    }
+}
+
+/* about-solution */
+.about-solution{
+    background-color: white;
+}
+
+/* bout-mission */
+.about-mission{
+    i{
+        font-size: 3.5rem;
+        margin-right: 2rem;
+        width: 5rem;
+        color: $text-dark;
+    }
+}
+.about-mission-small-box{
+    margin-bottom: 3rem;
+    h3{
+        padding-bottom: 0.8rem;
+    }
+}
+
+/* about-team */
+.about-team{
+    background-color: $bg;
+    padding: 6rem 0 9rem 0;
+    text-align: center;
+    p{
+        padding: 1.5rem 0 2.5rem 0;
+    }
+    h4{
+        padding-top: 1.5rem;
+        color: $text-dark;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    span{
+        display: inline-block;
+        font-size: 0.8rem;
+        color: $primary;
+        padding: 0.8rem 0 2.5rem 0;
+    }
+}
